@@ -14,4 +14,7 @@ Golang shortcut install with path
 
 `bash <(curl -Ls https://raw.githubusercontent.com/Grandova/Golangshortcut/main/install.sh)`
 
+刷新环境变量
+`source /etc/profile`
+
 上传到这里只是为了方便自己 有需要拿去用吧
