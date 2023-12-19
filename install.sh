@@ -7,8 +7,8 @@ apt install mercurial git gcc -y
 wget -P ${installdir} https://go.dev/dl/${goversion}
 cd ${installdir} && tar -zxvf ${goversion}
 mkdir /home/go ; cd /home/go ; mkdir bin src pkg
-echo "export GOROOT=/usr/local/go">>/etc/profile
-echo "export PATH=$GOROOT/bin:$PATH">>/etc/profile
-echo "export GOPATH=/home/go">>/etc/profile
+echo 'export GOROOT=/usr/local/go'>>/etc/profile
+echo 'export PATH=$GOROOT/bin:$PATH'>>/etc/profile
+echo 'export GOPATH=/home/go'>>/etc/profile
 source /etc/profile
 go version
