@@ -6,7 +6,7 @@ Golang shortcut install with path
 
 自己弄了一个Go的快捷安装 此教程仅针对debian 11
 
-替换debian 11系统源
+替换debian 11系统源 并更新
 
 `bash <(curl -Ls https://raw.githubusercontent.com/Grandova/Golangshortcut/main/replace.sh)`
 
