@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf /etc/apt/sources.list
+mv /etc/apt/sources.list /etc/apt/sources.list.backup
 wget -P /etc/apt/ https://raw.githubusercontent.com/Grandova/golangshortcut/main/sources.list
