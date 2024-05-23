@@ -1,6 +1,6 @@
 #!/bin/bash
 # check root
-goversion=go1.21.5.linux-ard64.tar.gz
+goversion=go1.21.5.linux-arm64.tar.gz
 installdir=/usr/local/
 [[ $EUID -ne 0 ]] && echo -e "${red}错误：${plain} 必须使用root用户运行此脚本！\n" && exit 1
 apt install mercurial git gcc -y
